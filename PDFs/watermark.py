@@ -21,5 +21,5 @@ def create_watermark(input_pdf, output, watermark):
 if __name__ == '__main__':
     create_watermark(
         input_pdf='test_pdf.pdf',
-        output='watermarked_test_pdf.pdf',
+        output='test_pdf_WATERMARKED.pdf',
         watermark='watermark.pdf')
